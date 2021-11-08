@@ -40,14 +40,11 @@ public final class Utilities {
      */
     public static <X> Set<X> setIntersection(final Set<? extends X> setA, final Set<? extends X> setB) {
     	Set <X> s1 = new HashSet<X>();
-    	
     	for (X i : setA) {
-    		for (X h: setB) 
-    			if(h==i) {
-    				s1.add(h);
-    			}
-    		}
-        return s1;
+    		if(setB.contains(i))
+    			s1.add(i);
+    	}
+    	return s1;
     }
 
     /**
