@@ -4,3 +4,8 @@
 .project
 .settings
 git-exercise.zip
+src/.DS_Store
+src/it/.DS_Store
+src/it/unibo/.DS_Store
+src/it/unibo/oop/.DS_Store
+src/it/unibo/oop/lab05/.DS_Store
